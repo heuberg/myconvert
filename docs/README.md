@@ -1,6 +1,8 @@
 # MyConvert
 **A flexible Android (unit-)conversion app.**
 
+Download the latest APK-file to install the app on your Android device: [Version 1.0](../release/MyConvert-v1.0_com.github.heuberg.myconvert.apk)
+
 ## Features
 * Simple design
 * No ads, no spying
