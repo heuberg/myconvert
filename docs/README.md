@@ -55,7 +55,7 @@ As you can see, you define *rewritten* variables and formulas similar to the one
 ## [Contributing](CONTRIBUTING.md)
 For information on how you can contribute see [here](CONTRIBUTING.md).
 
-## [License](..\LICENSE)
+## [License](../LICENSE)
 This project is published under GNU General Public License v3. It uses the library [exp4j](https://objecthunter.net/exp4j) which is under Apache License 2.0
 
 ## Contact
