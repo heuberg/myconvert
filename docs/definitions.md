@@ -6,7 +6,7 @@
 
 * [EUR &harr; CHF](defs/en/curr_eur-chf.xml "Go to file") (contributed by *MaXE*)
 * [EUR &harr; SEK](defs/en/curr_eur-sek.xml "Go to file") (contributed by *MaXE*)
-* [EUR &rarr; others (1)](defs/en/curr_eur-others-1.xml "Go to file") (contributed by *MaXE*)
+* [Euro &rarr; others (1)](defs/en/curr_euro-others-1.xml "Go to file") (contributed by *MaXE*)
 
 ### Category: *Chemistry*
 
