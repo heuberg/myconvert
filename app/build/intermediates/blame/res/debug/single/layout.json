@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/benga/Projekte/MyConvert/Android/myconvert/app/build/intermediates/res/merged/debug/layout/dialog_about.xml",
+        "source": "/home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/res/layout/dialog_about.xml"
+    },
+    {
+        "merged": "/home/benga/Projekte/MyConvert/Android/myconvert/app/build/intermediates/res/merged/debug/layout/dialog_help.xml",
+        "source": "/home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/res/layout/dialog_help.xml"
+    },
+    {
+        "merged": "/home/benga/Projekte/MyConvert/Android/myconvert/app/build/intermediates/res/merged/debug/layout/activity_edit.xml",
+        "source": "/home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/res/layout/activity_edit.xml"
+    },
+    {
+        "merged": "/home/benga/Projekte/MyConvert/Android/myconvert/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/benga/Projekte/MyConvert/Android/myconvert/app/build/intermediates/res/merged/debug/layout/simple_spinner_item.xml",
+        "source": "/home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/res/layout/simple_spinner_item.xml"
+    },
+    {
+        "merged": "/home/benga/Projekte/MyConvert/Android/myconvert/app/build/intermediates/res/merged/debug/layout/simple_spinner_dropdown_item.xml",
+        "source": "/home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/res/layout/simple_spinner_dropdown_item.xml"
+    }
+]

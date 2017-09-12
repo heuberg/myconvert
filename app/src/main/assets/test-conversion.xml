@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+    <def name="Degree C → F" cat="Temperatures">
+        <var name="Celsius" def="20.0"/>
+        <res name="Fahrenheit" formula="v1*1.8+32"/>
+        <revar name="Fahrenheit" def="68.0"/>
+        <reres name="Celsius"  formula="(v1-32)/1.8"/>
+    </def>
+</myconvert>

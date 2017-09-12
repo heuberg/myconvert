@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.DeviceDefault.TextView.SpinnerItem">
+        <item name="android:padding">7dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Medium</item>
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.DeviceDefault.Widget.TextView.SpinnerItem">
+        <item name="android:padding">7dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="DialogText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DialogText.AboutHeading">
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <style name="DialogText.HelpHeading">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_changelog_summary">If you want to contribute your conversion definitions to be
+        put on the website, just send it to me by email. If you want to contribute in another way feel
+        free to contact me.
+        \nMonetary contributions (donations) are also very welcome :) Visit the project\'s website for more information.</string>
+    <string name="about_changelog_title">Contribution &amp; Donation</string>
+    <string name="about_developers_summary">Hameau Heuberg [<a href="mailto:hameau@eclipso.at">mailto</a>]</string>
+    <string name="about_developers_title">Developer</string>
+    <string name="about_license_summary">GNU General Public License v3
+        \nThis app uses the library <a href="https://objecthunter.net/exp4j">exp4j</a> which is under Apache License 2.0.
+    </string>
+    <string name="about_license_title">License</string>
+    <string name="about_title">About</string>
+    <string name="about_version_summary">MyCovert 1.0</string>
+    <string name="about_version_title">Version</string>
+    <string name="about_website_summary"><a href="https://github.com/heuberg/myconvert">https://github.com/heuberg/myconvert</a></string>
+    <string name="about_website_title">Project website</string>
+    <string name="app_name">MyConvert</string>
+    <string name="backup_send_intenttitle">Send Backup via</string>
+    <string name="backup_send_msgbody">Attached find a backup of all conversion definitions of the MyConvert app.</string>
+    <string name="backup_send_subject">MyConvert Backup</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_dorename">Rename</string>
+    <string name="btn_rename">Rename…</string>
+    <string name="btn_rewrite">↑↓</string>
+    <string name="btn_save">Save</string>
+    <string name="convert">Convert</string>
+    <string name="duplicate_done">Duplication done.</string>
+    <string name="edit_delete_done">Deleted.</string>
+    <string name="edit_delete_failed">Could not delete the xml file.</string>
+    <string name="edit_dlg_delete">Delete file</string>
+    <string name="edit_dlg_deleteTxt">Are you sure you want to delete this conversion definition?</string>
+    <string name="edit_dlg_rename">Rename file</string>
+    <string name="edit_dlg_renameTxt">Enter the new filename.\n(Unsaved changes are lost!)</string>
+    <string name="edit_noextstorage">External Storage not available! Cannot save any changes in xml-files.</string>
+    <string name="edit_rename_done">Rename done.</string>
+    <string name="edit_rename_failed">Renaming the xml file failed!</string>
+    <string name="edit_save_done">Saved.</string>
+    <string name="edit_save_failed">Could not save the xml file.</string>
+    <string name="error_backupsendfailed">Could not send backup.</string>
+    <string name="error_convfailed">Calculation of result failed.</string>
+    <string name="error_convnotexisting">Error. Selected conversion does not exist?!</string>
+    <string name="error_duplfailed">Error. Could not duplicate the conversion.</string>
+    <string name="error_noconversion">No conversion selected!</string>
+    <string name="error_parseinput">Error. Could not parse input values.</string>
+    <string name="help_section1_summary">Conversion definitions are stored in xml-files in the app\'s
+        external storage directory, something like Android/data/com.github.heuberg.myconvert/files/.
+        The app loads all xml-files in this directory at startup time. For first time usage you have
+        to put some conversion definition files there.
+    </string>
+    <string name="help_section1_title">Usage</string>
+    <string name="help_section2_summary">You can find conversion definition files at the project\'s
+        <a href="https://github.com/heuberg/myconvert">website</a> or you <i>duplicate</i> the default
+        conversion (which creates an according file) and edit it via <i>Edit mode</i> or an appropriate
+        xml editor. Check out existing files to find out how to define new conversions or read the online manual.
+        \nFormulas may contain <i>Operators:</i> +, -, *, /, ^, %. <i>Functions:</i> abs, acos, asin, atan, cbrt,
+        ceil, cos, cosh, exp, floor, log, log10, log2, sin, sinh, sqrt, tan, tanh, signum. <i>Constants:</i> pi, π, e, φ.
+    </string>
+    <string name="help_section2_title">Conversion definitions</string>
+    <string name="help_title">Help</string>
+    <string name="loading_nodefs">No conversion definitions found in %1$s.</string>
+    <string name="loading_noextstorage">External Storage not available! No conversion definitions loaded…</string>
+    <string name="menu_duplicate">Duplicate conversion</string>
+    <string name="menu_editmode">Edit mode…</string>
+    <string name="menu_export">Send Backup…</string>
+    <string name="menu_help">Help/About</string>
+    <string name="menu_import">Import</string>
+    <string name="menu_mainmode">Back to main mode…</string>
+    <string name="na">*NA*</string>
+    <string name="saving_noextstorage">External Storage not available! Cannot save xml-file.</string>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="DialogText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="DialogText.AboutHeading">
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+    <style name="DialogText.HelpHeading">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.DeviceDefault.Widget.TextView.SpinnerItem">
+        <item name="android:padding">7dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="spinnerItemStyle" parent="android:Widget.DeviceDefault.TextView.SpinnerItem">
+        <item name="android:padding">7dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Medium</item>
+    </style>
+</resources>

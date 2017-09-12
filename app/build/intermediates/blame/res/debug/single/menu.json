@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/benga/Projekte/MyConvert/Android/myconvert/app/build/intermediates/res/merged/debug/menu/edit_menu.xml",
+        "source": "/home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/res/menu/edit_menu.xml"
+    },
+    {
+        "merged": "/home/benga/Projekte/MyConvert/Android/myconvert/app/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/res/menu/main_menu.xml"
+    }
+]
