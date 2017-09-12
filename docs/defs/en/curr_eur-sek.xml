@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="EUR ↔ SEK" cat="Currency">
+		<var name="Euro" def="10"/>
+		<res name="Swedish Krona" formula="v1*9.56"/>
+		<revar name="Swedish Krona" def="10"/>
+		<reres name="Euro" formula="v1/9.56"/>
+	</def>
+</myconvert>

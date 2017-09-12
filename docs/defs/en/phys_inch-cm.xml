@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="inch ↔ cm" cat="Physics">
+		<var name="inch" def="10"/>
+		<res name="cm" formula="v1*2.54"/>
+		<revar name="cm" def="10"/>
+		<reres name="inch" formula="v1/2.54"/>
+	</def>
+</myconvert>

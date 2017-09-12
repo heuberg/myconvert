@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="pound ↔ kg" cat="Physics">
+		<var name="pounds" def="10"/>
+		<res name="kilogram" formula="v1*0.4536"/>
+		<revar name="kilogram" def="10"/>
+		<reres name="pound" formula="v1/0.4536"/>
+	</def>
+</myconvert>

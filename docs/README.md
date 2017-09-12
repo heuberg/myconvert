@@ -15,7 +15,7 @@
 ## Usage
 Conversion definitions are stored in XML files in the app's external storage directory (something like Android/data/com.github.heuberg.myconversion/files/). The app loads all XML files in this directory at startup time. For first time usage you have to put some conversion definition files there.
 ## Conversion definitions
-You can find conversion definition files here (coming soon) or you *duplicate* the default converion (which creates an according file) and edit it via *Edit mode* or an appropriate XML-editor. Check out existing files to find out how to define new conversions.
+You can find conversion definition files [here](definitions.md) or you *duplicate* the default converion (which creates an according file) and edit it via *Edit mode* or an appropriate XML-editor. Check out existing files to find out how to define new conversions.
 ### Example of a simple conversion definition
 ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -54,6 +54,7 @@ As you can see, you define *rewritten* variables and formulas similar to the one
 
 ## [Contributing](CONTRIBUTING.md)
 For information on how you can contribute see [here](CONTRIBUTING.md).
+For a list of currently available definition files see [here](definitions.md).
 
 ## [License](../LICENSE)
 This project is published under GNU General Public License v3. It uses the library [exp4j](https://objecthunter.net/exp4j) which is under Apache License 2.0

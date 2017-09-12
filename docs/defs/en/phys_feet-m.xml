@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="feet ↔ meters" cat="Physics">
+		<var name="feet" def="10"/>
+		<res name="meters" formula="v1*0.3048"/>
+		<revar name="meters" def="10"/>
+		<reres name="feet" formula="v1/0.3048"/>
+	</def>
+</myconvert>

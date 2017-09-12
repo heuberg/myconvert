@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="Volumen ↔ Masse" cat="Kochen">
+		<var name="Wasser, Zucker [g]" def="100"/>
+		<res name="Wasser, Zucker [mL]" formula="v1"/>
+		<var name="Salz [g]" def="10"/>
+		<res name="Salz [mL]" formula="v2*0.8"/>
+		<var name="Reis [g]" def="100"/>
+		<res name="Reis [mL]" formula="v3*1.15"/>
+		<var name="Mehl, Stärke, Brösel [g]" def="100"/>
+		<res name="Mehl, Stärke, Brösel [mL]" formula="v4*1.45"/>
+		<var name="Kakao [g]" def="100"/>
+		<res name="Kakao [mL]" formula="v5*1.7"/>
+		<revar name="Wasser, Zucker [mL]" def="100"/>
+		<reres name="Wasser, Zucker [g]" formula="v1"/>
+		<revar name="Salz [mL]" def="10"/>
+		<reres name="Salz [g]" formula="v2*1.25"/>
+		<revar name="Reis [mL]" def="10"/>
+		<reres name="Reis [g]" formula="v3*0.85"/>
+		<revar name="Mehl, Stärke, Brösel [mL]" def="10"/>
+		<reres name="Mehl, Stärke, Brösel [g]" formula="v4*0.7"/>
+		<revar name="Kakao [mL]" def="10"/>
+		<reres name="Kakao [g]" formula="v5*0.6"/>
+	</def>
+</myconvert>

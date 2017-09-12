@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="mile ↔ km" cat="Physics">
+		<var name="miles" def="10"/>
+		<res name="kilometers" formula="v1*1.609"/>
+		<revar name="kilometers" def="10"/>
+		<reres name="miles" formula="v1/1.609"/>
+	</def>
+</myconvert>

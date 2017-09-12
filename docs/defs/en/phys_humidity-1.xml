@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="Humidity" cat="Physics">
+		<var name="Temperature [°C]" def="20.0"/>
+		<var name="Rel. Humidity [%]" def="50.0"/>
+		<var name="Pressure [hPa = mbar]" def="1013.25"/>
+		<res name="Dewpoint [°C]" formula="240.7263/(7.591386/(log10( 6.116441*10^(7.591386*v1/(v1+240.7263)) *v2/100 *1013.25/v3 /6.116441))-1)"/>
+		<res name="Abs. Humidity [g/m³]" formula="2.16679 *100*6.116441*10^(7.591386*v1/(v1+240.7263))*v2/100*1013.25/v3 /(v1+273.15)"/>
+	</def>
+</myconvert>

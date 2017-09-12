@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="ppm ↔ mg/m³" cat="Chemistry">
+		<var name="ppm" def="1.0"/>
+		<var name="g/mol" def="30.03"/>
+		<var name="T [°C]" def="20.0"/>
+		<var name="p [hPa = mbar]" def="1013.25"/>
+		<res name="mg/m³" formula="v1*v2*v4/(v3+273.15)/83.1451"/>
+		<revar name="mg/m³" def="1.0"/>
+		<revar name="g/mol" def="30.03"/>
+		<revar name="T [°C]" def="20.0"/>
+		<revar name="p [hPa = mbar]" def="1013.25"/>
+		<reres name="ppm" formula="v1/v2/v4*(v3+273.15)*83.1451"/>
+	</def>
+</myconvert>

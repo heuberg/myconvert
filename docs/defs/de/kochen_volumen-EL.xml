@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="Volumen ↔ EL" cat="Kochen">
+		<var name="Esslöffel [EL]" def="1"/>
+		<res name="Teelöffel [TL]" formula="v1*3"/>
+		<var name="Wasser, Zucker, Butter [EL]" def="1"/>
+		<res name="Wasser, Zucker, Butter [g]" formula="15*v2"/>
+		<var name="Salz, Topfen, fl. Rahm [EL]" def="1"/>
+		<res name="Salz, Topfen, fl. Rahm [g]" formula="15*v3"/>
+		<var name="Ei verquirlt [EL]" def="1"/>
+		<res name="Ei verquirlt [g]" formula="60*v4"/>
+		<var name="Joghurt [EL]" def="1"/>
+		<res name="Joghurt [g]" formula="20*v5"/>
+		<var name="ger. Emmentaler [EL]" def="1"/>
+		<res name="ger. Emmentaler [g]" formula="4*v6"/>
+		<var name="ger. Parmesan [EL]" def="1"/>
+		<res name="ger. Parmesan [g]" formula="7*v7"/>
+		<var name="gem. Mandeln [EL]" def="1"/>
+		<res name="gem. Mandeln [g]" formula="5*v8"/>
+		<var name="Mehl, Stärke, Zwiebel (fein) [EL]" def="1"/>
+		<res name="Mehl, Stärke, Zwiebel (fein) [g]" formula="10*v9"/>
+		<var name="Öl [EL]" def="1"/>
+		<res name="Öl [g]" formula="12*v10"/>
+
+		<revar name="Teelöffel [TL]" def="3"/>
+		<reres name="Esslöffel [EL]" formula="v1/3"/>
+		<revar name="Wasser, Zucker, Butter [g]" def="15"/>
+		<reres name="Wasser, Zucker, Butter [EL]" formula="v2/15"/>
+		<revar name="Salz, Topfen, fl. Rahm [g]" def="15"/>
+		<reres name="Salz, Topfen, fl. Rahm [EL]" formula="v3/15"/>
+		<revar name="Ei verquirlt [g]" def="60"/>
+		<reres name="Ei verquirlt [EL]" formula="v4/60"/>
+		<revar name="Joghurt [g]" def="20"/>
+		<reres name="Joghurt [EL]" formula="v5/20"/>
+		<revar name="ger. Emmentaler [g]" def="4"/>
+		<reres name="ger. Emmentaler [EL]" formula="v6/4"/>
+		<revar name="ger. Parmesan [g]" def="7"/>
+		<reres name="ger. Parmesan [EL]" formula="v7/7"/>
+		<revar name="gem. Mandeln [g]" def="5"/>
+		<reres name="gem. Mandeln [EL]" formula="v8/5"/>
+		<revar name="Mehl, Stärke, Zwiebel (fein) [g]" def="10"/>
+		<reres name="Mehl, Stärke, Zwiebel (fein) [EL]" formula="v9/10"/>
+		<revar name="Öl [g]" def="12"/>
+		<reres name="Öl [EL]" formula="v10/12"/>
+	</def>
+</myconvert>

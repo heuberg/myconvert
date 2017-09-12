@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="V/m ↔ mW/m²" cat="Physics">
+		<var name="V/m" def="1.0"/>
+		<res name="mW/m²" formula="v1^2*1000/377"/>
+		<revar name="mW/m²" def="1.0"/>
+		<reres name="V/m" formula="sqrt(v1*0.377)"/>
+	</def>
+</myconvert>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="Celsius ↔ Fahrenheit" cat="Physics">
+		<var name="Celsius" def="20.0"/>
+		<res name="Fahrenheit" formula="v1*1.8+32"/>
+		<res name="Kelvin" formula="v1+273.15"/>
+		<revar name="Fahrenheit" def="68"/>
+		<reres name="Celsius" formula="(v1-32)/1.8"/>
+		<reres name="Kelvin" formula="(v1-32)/1.8+273.15"/>
+	</def>
+</myconvert>

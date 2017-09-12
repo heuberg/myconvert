@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="kcal ↔ kJ" cat="Physics">
+		<var name="kcal" def="100"/>
+		<res name="kJ" formula="v1*4.1868"/>
+		<revar name="kJ" def="100"/>
+		<reres name="kcal" formula="v1/4.1868"/>
+	</def>
+</myconvert>

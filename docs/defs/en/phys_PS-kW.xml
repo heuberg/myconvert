@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+	<def name="Pferdestärke ↔ kW" cat="Physik">
+		<var name="PS" def="100"/>
+		<res name="kW" formula="v1*0.73549875"/>
+		<revar name="kW" def="100"/>
+		<reres name="PS" formula="v1/0.73549875"/>
+	</def>
+</myconvert>
