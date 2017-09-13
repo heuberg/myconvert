@@ -67,7 +67,6 @@
     <string name="btn_rewrite">↑↓</string>
     <string name="error_noconversion">No conversion selected!</string>
     <string name="error_convfailed">Calculation of result failed.</string>
-    <string name="error_convnotexisting">Error. Selected conversion does not exist?!</string>
     <string name="error_parseinput">Error. Could not parse input values.</string>
     <string name="error_duplfailed">Error. Could not duplicate the conversion.</string>
     <string name="na">*NA*</string>

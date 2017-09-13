@@ -236,7 +236,7 @@ public class MainActivity extends Activity {
 
         Conversion conv = converter.getConversionByName(selectedConversion);
         if (conv == null) {
-            Toast.makeText(context, getResources().getString(R.string.error_convnotexisting), Toast.LENGTH_SHORT).show();
+            //do not show any message - this happens when changing the category!
             return;
         }
 
