@@ -8,7 +8,6 @@
     </group>
     <group>
         <item android:id="@+id/menu_import"
-            android:enabled="false"
             android:title="@string/menu_import" />
         <item android:id="@+id/menu_export"
             android:title="@string/menu_export"  />

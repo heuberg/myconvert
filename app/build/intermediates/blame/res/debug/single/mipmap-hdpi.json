@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/benga/Projekte/MyConvert/Android/myconvert/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
-        "source": "/home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "P:\\programmierung\\Android\\projects\\MyConvert\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "P:\\programmierung\\Android\\projects\\MyConvert\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "P:\\home\\benga\\Projekte\\MyConvert\\Android\\myconvert\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "P:\\home\\benga\\Projekte\\MyConvert\\Android\\myconvert\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

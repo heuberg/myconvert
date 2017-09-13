@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MyConvert</string>
+    <string name="app_name_import">MyConvert-Import</string>
     <string name="convert">Convert</string>
     <string name="loading_noextstorage">External Storage not available! No conversion definitions loaded…</string>
     <string name="saving_noextstorage">External Storage not available! Cannot save xml-file.</string>
     <string name="edit_noextstorage">External Storage not available! Cannot save any changes in xml-files.</string>
+    <string name="import_noextstorage">External Storage not available! Cannot import any xml-files.</string>
     <string name="menu_duplicate">Duplicate conversion</string>
     <string name="menu_editmode">Edit mode…</string>
     <string name="menu_mainmode">Back to main mode…</string>
-    <string name="menu_import">Import</string>
+    <string name="menu_import">Import…</string>
     <string name="menu_export">Send Backup…</string>
     <string name="menu_help">Help/About</string>
     <string name="help_title">Help</string>
@@ -28,7 +30,7 @@
     </string>
     <string name="about_title">About</string>
     <string name="about_version_title">Version</string>
-    <string name="about_version_summary">MyCovert 1.0</string>
+    <string name="about_version_summary">MyCovert 1.1</string>
     <string name="about_license_title">License</string>
     <string name="about_license_summary">GNU General Public License v3
         \nThis app uses the library <a href="https://objecthunter.net/exp4j">exp4j</a> which is under Apache License 2.0.
@@ -69,4 +71,8 @@
     <string name="error_parseinput">Error. Could not parse input values.</string>
     <string name="error_duplfailed">Error. Could not duplicate the conversion.</string>
     <string name="na">*NA*</string>
+    <string name="import_dlg_title">Import conversions</string>
+    <string name="import_dlg_message">Please download a conversion definition file to your device and - using your filemanager - <i>share</i> it with this app\'s importer.</string>
+    <string name="import_done">File import done.</string>
+    <string name="import_failed">Error. File import failed.</string>
 </resources>

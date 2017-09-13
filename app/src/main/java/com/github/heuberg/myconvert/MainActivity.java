@@ -18,6 +18,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -127,7 +128,7 @@ public class MainActivity extends Activity {
                 startActivityForResult(intent, INTENT_CODE_EDITACTIVITY);
                 return true;
             case R.id.menu_import:
-                //TODO show import dialog
+                showImportDialog();
                 return true;
             case R.id.menu_export:
                 sendBackup();
@@ -387,6 +388,21 @@ public class MainActivity extends Activity {
         } catch (IOException e) {
             Toast.makeText(context, getResources().getString(R.string.error_backupsendfailed), Toast.LENGTH_SHORT).show();
         }
+    }
+
+    /**
+     * Build and show the help dialog.
+     */
+    private void showImportDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        AlertDialog dlg = builder.setTitle(context.getResources().getString(R.string.import_dlg_title))
+            .setMessage(context.getResources().getString(R.string.import_dlg_message))
+            .setCancelable(false)
+            .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int which) { /*ok*/ }
+            })
+            .setIcon(android.R.drawable.ic_dialog_info)
+            .show();
     }
 
     /**

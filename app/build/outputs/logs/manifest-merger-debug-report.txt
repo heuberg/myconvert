@@ -1,57 +1,83 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
-		ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:3:5-43
-		INJECTED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml
-		INJECTED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml
+		INJECTED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml
-		INJECTED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml
+		INJECTED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml
+		INJECTED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml
-		INJECTED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml
+		INJECTED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml
+		INJECTED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:5:5-81
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:5:22-78
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:5:22-78
 application
-ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:7:5-20:19
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:7:5-31:19
 	android:label
-		ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:10:9-41
-	android:supportsRtl
-		ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:10:9-41
 	android:allowBackup
-		ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:8:9-35
 	android:icon
-		ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:9:9-43
 	android:theme
-		ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.github.heuberg.myconvert.MainActivity
-ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:13:9-18:20
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:12:9-17:20
 	android:name
-		ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:13:19-47
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:14:13-17:29
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:13:13-16:29
 action#android.intent.action.MAIN
-ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
-		ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:15:27-74
+activity#com.github.heuberg.myconvert.ImportActivity
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:18:9-29:20
+	android:label
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:18:50-89
+	android:theme
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:18:90-136
+	android:name
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:18:19-49
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.SEND
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.DEFAULT
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:21:27-73
+data
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:22:17-66
+	android:mimeType
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:22:23-63
+intent-filter#android.intent.action.SEND_MULTIPLE+android.intent.category.DEFAULT
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.SEND_MULTIPLE
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:25:17-78
+	android:name
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:25:25-75
 activity#com.github.heuberg.myconvert.EditActivity
-ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:19:9-50
+ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:30:9-50
 	android:name
-		ADDED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml:30:19-47
 uses-sdk
-INJECTED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 	android:targetSdkVersion
-		INJECTED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml
-		INJECTED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml
+		INJECTED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml
+		INJECTED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml
-		INJECTED from /home/benga/Projekte/MyConvert/Android/myconvert/app/src/main/AndroidManifest.xml
+		INJECTED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml
+		INJECTED from P:\programmierung\Android\projects\MyConvert\app\src\main\AndroidManifest.xml
