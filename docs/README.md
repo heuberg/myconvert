@@ -1,23 +1,26 @@
 # MyConvert
 **A flexible Android (unit-)conversion app.**
 
-Download the latest APK-file to install the app on your Android device: [Version 1.0](../release/MyConvert-v1.0_com.github.heuberg.myconvert.apk)
+Download the latest APK-file to install the app on your Android device: [Version 1.1](../releases/latest)
 
 ## Features
-* Simple design
+* Simple design, intuitive UI
 * No ads, no spying
 * Have just the conversions you need
-* Define your own conversions (simple XML-based definitions)
-* Download others' conversion definitions
+* Define your own conversions (simple XML-based)
+* Download and import others' conversion definitions
 * Conversions can be grouped in categories
 * Edit mode to edit definitions from within the app
 * Duplicate conversion definitions (&rarr; rapid creation of new ones)
 * Backup all definitions
+* You may even share your definition files
 
 ## Usage
-Conversion definitions are stored in XML files in the app's external storage directory (something like Android/data/com.github.heuberg.myconversion/files/). The app loads all XML files in this directory at startup time. For first time usage you have to put some conversion definition files there.
+Conversion definitions are stored in XML files in the app's external storage directory (something like Android/data/com.github.heuberg.myconversion/files/). The app loads all XML files in this directory at startup time. For first time usage you have to put some conversion definition files there. As of version 1.1 you can use the app\'s **importer** to not have to put your downloaded definition files there manually: using your device\'s filemanager just *share* (aka *Send via*) the downloaded definition files with the *MyConvert-Importer*.
+
 ## Conversion definitions
 You can find conversion definition files [here](definitions.md) or you *duplicate* the default converion (which creates an according file) and edit it via *Edit mode* or an appropriate XML-editor. Check out existing files to find out how to define new conversions.
+
 ### Example of a simple conversion definition
 ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -29,6 +32,7 @@ You can find conversion definition files [here](definitions.md) or you *duplicat
     </myconvert>
 ```
 As you can see, you define conversions with the `<def>` element giving it a `name` attribute and a category (`cat`). You define *variables* with the `<var>` element specifying a `name` attribute and an optional default value (`def`). Results are defined via `<res>` elements with `name` and `formula` attributes. You may define any number of variables and results, but have to define at least one each. (Each file may contain one or more conversion defintions, i.e. `<def>` elements.)
+
 ### Formulas
 Within formulas you can reference the variables with `v1` (1st variable's value) to `vN` (Nth variable's value).
 Formulas may contain *Operators:* `+`, `-`, `\*`, `/`, `^`, `%`. *Functions:* `abs`, `acos`, `asin`, `atan`, `cbrt`, `ceil`, `cos`, `cosh`, `exp`, `floor`, `log`, `log10`, `log2`, `sin`, `sinh`, `sqrt`, `tan`, `tanh`, `signum`. *Constants:* `pi`, `e`. (For evaluation the exp4j library is used: see [objecthunter.net/exp4j](https://objecthunter.net/exp4j))
@@ -62,6 +66,4 @@ For a list of currently available definition files see [here](definitions.md).
 This project is published under GNU General Public License v3. It uses the library [exp4j](https://objecthunter.net/exp4j) which is under Apache License 2.0
 
 ## Contact
-If you have any questions, comments, bugs or anything else you want to share with us, please feel free to contact us by [mail](mailto:hameau@eclipso.at).
-
-`To be continued...`
+If you have any questions, comments, bugs or anything else you want to share with us, please feel free to contact us by [mail](mailto:hameau@eclipso.at) or just file an issue via github\'s [issue tracking](../../../issues) system.
