@@ -11,11 +11,16 @@ Download the latest APK-file to install the app on your Android device: [Version
 * Download and import others' conversion definitions
 * Conversions can be grouped in categories
 * Edit mode to edit definitions from within the app
-* Duplicate conversion definitions (&rarr; rapid creation of new ones)
+* Duplicate conversion definitions (&rarr; rapid creation)
 * Backup all definitions
 * You may even share your definition files
 
 ## Usage
+:mouse: *Conversion* is not just converting currencies or physical units. In fact it is *calculation*. Calculation of an output from one or more inputs. We call these inputs `variables` (whose values may be changed by the user) and the output *result* (which is defined by a *formula*). That's all a conversion definition consits of:
+- name of the conversion (and optional category)
+- named variables (with optional default values)
+- named result(s) with corresponding formula(s)
+
 Conversion definitions are stored in XML files in the app's external storage directory (something like Android/data/com.github.heuberg.myconversion/files/). The app loads all XML files in this directory at startup time. For first time usage you have to put some conversion definition files there. As of version 1.1 you can use the app\'s **importer** to not have to put your downloaded definition files there manually: using your device\'s filemanager just *share* (aka *Send via*) the downloaded definition files with the *MyConvert-Importer*.
 
 ## Conversion definitions
@@ -23,13 +28,13 @@ You can find conversion definition files [here](definitions.md) or you *duplicat
 
 ### Example of a simple conversion definition
 ```xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <myconvert version="1">
-        <def name="Degree C -> F" cat="Temperatures">
-            <var name="Celsius" def="20.0" />
-            <res name="Fahrenheit" formula="v1*1.8+32" />
-        </def>
-    </myconvert>
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+    <def name="Degree C -> F" cat="Temperatures">
+        <var name="Celsius" def="20.0" />
+        <res name="Fahrenheit" formula="v1*1.8+32" />
+    </def>
+</myconvert>
 ```
 As you can see, you define conversions with the `<def>` element giving it a `name` attribute and a category (`cat`). You define *variables* with the `<var>` element specifying a `name` attribute and an optional default value (`def`). Results are defined via `<res>` elements with `name` and `formula` attributes. You may define any number of variables and results, but have to define at least one each. (Each file may contain one or more conversion defintions, i.e. `<def>` elements.)
 
@@ -40,15 +45,15 @@ Formulas may contain *Operators:* `+`, `-`, `\*`, `/`, `^`, `%`. *Functions:* `a
 ### Example of a simple conversion definition with rewritten form
 In some cases, as in the example above, you maybe want to also convert the other way round, i.e. to rewrite the formula (here: convert from Fahrenheit to Celsius). This can be done by also specifying variables and results for the rewritten form.
 ```xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <myconvert version="1">
-        <def name="Degree C -> F" cat="Temperatures">
-            <var name="Celsius" def="20.0" />
-            <res name="Fahrenheit" formula="v1*1.8+32" />
-            <revar name="Fahrenheit" def="68.0" />
-            <reres name="Celsius" formula="(v1-32)/1.8" />
-        </def>
-    </myconvert>
+<?xml version="1.0" encoding="UTF-8"?>
+<myconvert version="1">
+    <def name="Degree C -> F" cat="Temperatures">
+        <var name="Celsius" def="20.0" />
+        <res name="Fahrenheit" formula="v1*1.8+32" />
+        <revar name="Fahrenheit" def="68.0" />
+        <reres name="Celsius" formula="(v1-32)/1.8" />
+    </def>
+</myconvert>
 ```
 As you can see, you define *rewritten* variables and formulas similar to the ones in *standard* form using `<revar>` for variables and `<reres>` for results.
 
